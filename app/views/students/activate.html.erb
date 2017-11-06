@@ -1,0 +1,6 @@
+<%= form_for @student do |f| %>
+  <%= f.label(:active, "Student status: ") %>
+  <%= f.check_box :active %>
+  <%= f.submit :"Change Status" %>
+
+<% end %>
