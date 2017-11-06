@@ -1,0 +1,6 @@
+<h1><%= @student.to_s %></h1>
+<form action="/students" method="post">
+<input type="radio" name="activate" value="active">Active
+<input type="radio" name="activate" value="inactive">Inactive
+<input type="submit">
+</form>
